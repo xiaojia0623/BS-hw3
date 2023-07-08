@@ -1,0 +1,8 @@
+.corner-hover{
+    .corner-content{
+        display: none;
+        &:hover{
+            display: block;
+        }
+    }
+}

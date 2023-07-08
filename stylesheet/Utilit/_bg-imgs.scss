@@ -63,5 +63,10 @@
     }
 }
   
-  
+.form-check-input{
+    &:checked{
+        background-color: #F9C745;
+        border-color: #F9C745;
+    }
+}
   

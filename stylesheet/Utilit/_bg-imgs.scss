@@ -16,23 +16,6 @@
 .bg-gray{ //設定footer表尾背景顏色
     background-color: gray;
 }
-.banner{
-    .banner-image{
-        margin: 0 auto;
-        background-image: url(/images/banner.png);
-        width: 100%;
-        height: auto;
-    }
-}
-@include pad{
-    .banner{
-        .banner-image{
-            width: 100%;
-            height: auto;
-            background-image: url(/images/banner_service-sm.png);
-        }
-    }
-}
 
 //首頁右下角固定
 .dialog-container {

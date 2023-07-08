@@ -33,7 +33,7 @@
   height: $form-check-input-width;
   margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
   vertical-align: top;
-  background-color: var(--#{$prefix}form-check-bg);
+  background-color: $yellow;
   background-image: var(--#{$prefix}form-check-bg-image);
   background-repeat: no-repeat;
   background-position: center;

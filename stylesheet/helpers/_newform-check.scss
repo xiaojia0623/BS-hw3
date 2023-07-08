@@ -63,8 +63,8 @@
   }
 
   &:checked {
-    background-color: $yellow;
-    border-color: $yellow;
+    background-color: #F9C745;
+    border-color: #F9C745;
 
     &[type="checkbox"] {
       @if $enable-gradients {

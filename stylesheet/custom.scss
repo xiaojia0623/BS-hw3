@@ -16,8 +16,6 @@
 // 2. Include any default variable overrides here
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
-@import "./helpers/newVariables";
-@import "../stylesheet/helpers/newform-check";
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
@@ -44,6 +42,8 @@
 //components
 @import "./base/reset";
 @import "./mixins/mixin";
+@import "./helpers/newVariables";
+@import "../stylesheet/helpers/newform-check";
 @import "./Utilit/bg-imgs";
 @import "./Utilit/font-change";
 @import "./Utilit/shadows";

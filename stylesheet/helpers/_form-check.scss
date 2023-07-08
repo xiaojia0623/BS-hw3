@@ -33,7 +33,7 @@
   height: $form-check-input-width;
   margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
   vertical-align: top;
-  background-color: $yellow;
+  background-color: var(--#{$prefix}form-check-bg);
   background-image: var(--#{$prefix}form-check-bg-image);
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +64,7 @@
 
   &:checked {
     background-color: #F9C745;
-    border-color: #F9C745;
+    border-color:#F9C745;
 
     &[type="checkbox"] {
       @if $enable-gradients {

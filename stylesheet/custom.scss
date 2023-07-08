@@ -1,6 +1,6 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-
+@import "../node_modules/bootstrap/scss/bootstrap";
 // Include any default variable overrides here (though functions won't be available)
 
 //@import "../node_modules/bootstrap/scss/bootstrap";
@@ -43,7 +43,7 @@
 @import "./base/reset";
 @import "./mixins/mixin";
 @import "./helpers/newVariables";
-@import "./helpers/newForm-check";
+@import "./helpers/form-check";
 @import "./Utilit/bg-imgs";
 @import "./Utilit/font-change";
 @import "./Utilit/shadows";
